@@ -11,4 +11,4 @@ const autorSchema = new mongoose.Schema(
 
 const autorModel = mongoose.model("autores", autorSchema);
 
-export default { autorModel, autorSchema };
+export { autorModel, autorSchema };
